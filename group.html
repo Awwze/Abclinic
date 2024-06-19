@@ -1,53 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сотрудники компании</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-        
-        #employees-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            overflow-y: scroll;
-            height: calc(100% - 50px);
-            width: 100%;
-            padding: 20px;
-            box-sizing: border-box;
-            text-align: center;
-        }
-        
-        .employee {
-            background-color: #333;
-            color: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            width: 80%;
-            max-width: 600px;
-            box-sizing: border-box;
-        }
-        
-        .employee img {
-            width: 100%;
-            max-width: 200px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-    </style>
+
 </head>
 <body>
     <div id="employees-container">
@@ -106,27 +64,5 @@
     <script>
         // Добавьте скрипт для обработки свайпа, если необходимо
     </script>
-    
-    <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-  
-    // Your web app's Firebase configuration
-    const firebaseConfig = {
-      apiKey: "AIzaSyBlB1dovWUxLPCTDm0cccapZdoFNYHWpPE",
-      authDomain: "abclinic-7849d.firebaseapp.com",
-      projectId: "abclinic-7849d",
-      storageBucket: "abclinic-7849d.appspot.com",
-      messagingSenderId: "190143257446",
-      appId: "1:190143257446:web:f6f1141222262deacb06a7"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-  </script>
-  
 </body>
 </html>
-
